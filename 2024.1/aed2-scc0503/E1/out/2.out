@@ -1,0 +1,8 @@
+Total of vertices: 7, total of arcs: 8
+Vertex 0, arcs: 1, 2
+Vertex 1, arcs: 0, 3, 4
+Vertex 2, arcs: 0, 5, 6
+Vertex 3, arcs: 1
+Vertex 4, arcs: 1, 5, 6
+Vertex 5, arcs: 2, 4
+Vertex 6, arcs: 2, 4

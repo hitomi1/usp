@@ -1,0 +1,15 @@
+Total of vertices: 6, total of arcs: 7
+Vertex 0, arcs: 1, 2
+Vertex 1, arcs: 0, 4
+Vertex 2, arcs: 0, 3, 4, 5
+Vertex 3, arcs: 2, 5
+Vertex 4, arcs: 1, 2
+Vertex 5, arcs: 2, 3
+
+Total of vertices: 6, total of arcs: 7
+Vertex 0, arcs: 1, 2
+Vertex 1, arcs: 0, 4
+Vertex 2, arcs: 0, 3, 4, 5
+Vertex 3, arcs: 2, 5
+Vertex 4, arcs: 1, 2
+Vertex 5, arcs: 2, 3
