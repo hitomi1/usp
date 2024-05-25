@@ -1,0 +1,10 @@
+ Andre  Guta  Jeremias  Lea  Marta  Walter  Xena 
+digraph {
+Xena -> Lea
+Lea -> Jeremias
+Lea -> Marta
+Jeremias -> Guta
+Marta -> Walter
+Guta -> Andre
+}
+

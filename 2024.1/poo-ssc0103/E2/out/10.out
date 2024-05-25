@@ -1,0 +1,21 @@
+digraph {
+"0 Fred" ->"2 Sara" 
+"2 Sara" ->"5 Renata" 
+"2 Sara" ->"6 Tadeu" 
+"6 Tadeu" ->"14 Xena" 
+}
+
+digraph {
+"0 Sara" ->"1 Fred" 
+"0 Sara" ->"2 Tadeu" 
+"1 Fred" ->"4 Renata" 
+"2 Tadeu" ->"6 Xena" 
+}
+
+digraph {
+"0 Sara" ->"1 Fred" 
+"0 Sara" ->"2 Tadeu" 
+"1 Fred" ->"4 Renata" 
+"2 Tadeu" ->"6 Xena" 
+}
+

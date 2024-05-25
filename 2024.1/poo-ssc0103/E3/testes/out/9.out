@@ -1,0 +1,9 @@
+ Eliane  Nadia  Queila  Renata  Yara  Ze 
+digraph {
+Yara -> Eliane
+Yara -> Ze
+Eliane -> Nadia
+Nadia -> Renata
+Renata -> Queila
+}
+

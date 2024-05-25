@@ -1,0 +1,8 @@
+ Carlos  Lea  Nadia  Omar  Sara 
+digraph {
+Sara -> Carlos
+Carlos -> Omar
+Omar -> Lea
+Lea -> Nadia
+}
+

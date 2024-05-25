@@ -1,0 +1,8 @@
+ Carlos  Nadia  Xena  Yara  Ze 
+digraph {
+Yara -> Xena
+Yara -> Ze
+Xena -> Carlos
+Carlos -> Nadia
+}
+

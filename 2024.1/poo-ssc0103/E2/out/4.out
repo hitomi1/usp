@@ -1,0 +1,15 @@
+digraph {
+"0 Yara" ->"1 Xena" 
+"1 Xena" ->"3 Walter" 
+}
+
+digraph {
+"0 Xena" ->"1 Walter" 
+"0 Xena" ->"2 Yara" 
+}
+
+digraph {
+"0 Xena" ->"1 Walter" 
+"0 Xena" ->"2 Yara" 
+}
+

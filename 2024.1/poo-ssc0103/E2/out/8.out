@@ -1,0 +1,27 @@
+digraph {
+"0 Xena" ->"1 Lea" 
+"1 Lea" ->"3 Jeremias" 
+"1 Lea" ->"4 Marta" 
+"3 Jeremias" ->"7 Guta" 
+"4 Marta" ->"10 Walter" 
+"7 Guta" ->"15 Andre" 
+}
+
+digraph {
+"0 Lea" ->"1 Guta" 
+"0 Lea" ->"2 Walter" 
+"1 Guta" ->"3 Andre" 
+"1 Guta" ->"4 Jeremias" 
+"2 Walter" ->"5 Marta" 
+"2 Walter" ->"6 Xena" 
+}
+
+digraph {
+"0 Lea" ->"1 Guta" 
+"0 Lea" ->"2 Walter" 
+"1 Guta" ->"3 Andre" 
+"1 Guta" ->"4 Jeremias" 
+"2 Walter" ->"5 Marta" 
+"2 Walter" ->"6 Xena" 
+}
+

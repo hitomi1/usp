@@ -1,0 +1,22 @@
+ Andre  Beto  Carlos  Daniela  Eliane  Fred  Guta  Helio  Iara  Jeremias  Kelle  Nadia  Omar  Queila  Sara  Tadeu  Vania  Walter  Xena 
+digraph {
+Walter -> Carlos
+Walter -> Xena
+Carlos -> Andre
+Carlos -> Iara
+Iara -> Helio
+Iara -> Nadia
+Andre -> Beto
+Nadia -> Kelle
+Nadia -> Omar
+Helio -> Guta
+Guta -> Daniela
+Daniela -> Eliane
+Omar -> Tadeu
+Kelle -> Jeremias
+Tadeu -> Sara
+Tadeu -> Vania
+Sara -> Queila
+Eliane -> Fred
+}
+

@@ -1,0 +1,30 @@
+digraph {
+"0 Andre" ->"2 Marta" 
+"2 Marta" ->"5 Daniela" 
+"2 Marta" ->"6 Nadia" 
+"5 Daniela" ->"11 Beto" 
+"5 Daniela" ->"12 Jeremias" 
+"6 Nadia" ->"14 Tadeu" 
+"14 Tadeu" ->"30 Ze" 
+}
+
+digraph {
+"0 Jeremias" ->"1 Beto" 
+"0 Jeremias" ->"2 Nadia" 
+"1 Beto" ->"3 Andre" 
+"1 Beto" ->"4 Daniela" 
+"2 Nadia" ->"5 Marta" 
+"2 Nadia" ->"6 Tadeu" 
+"6 Tadeu" ->"14 Ze" 
+}
+
+digraph {
+"0 Marta" ->"1 Daniela" 
+"0 Marta" ->"2 Tadeu" 
+"1 Daniela" ->"3 Andre" 
+"1 Daniela" ->"4 Jeremias" 
+"2 Tadeu" ->"5 Nadia" 
+"2 Tadeu" ->"6 Ze" 
+"3 Andre" ->"8 Beto" 
+}
+

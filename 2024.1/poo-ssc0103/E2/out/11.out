@@ -1,0 +1,30 @@
+digraph {
+"0 Ze" ->"1 Kelle" 
+"1 Kelle" ->"3 Beto" 
+"1 Kelle" ->"4 Xena" 
+"3 Beto" ->"8 Guta" 
+"8 Guta" ->"17 Carlos" 
+"17 Carlos" ->"36 Daniela" 
+"36 Daniela" ->"74 Fred" 
+}
+
+digraph {
+"0 Fred" ->"1 Carlos" 
+"0 Fred" ->"2 Kelle" 
+"1 Carlos" ->"3 Beto" 
+"1 Carlos" ->"4 Daniela" 
+"2 Kelle" ->"5 Guta" 
+"2 Kelle" ->"6 Xena" 
+"6 Xena" ->"14 Ze" 
+}
+
+digraph {
+"0 Kelle" ->"1 Daniela" 
+"0 Kelle" ->"2 Ze" 
+"1 Daniela" ->"3 Carlos" 
+"1 Daniela" ->"4 Guta" 
+"2 Ze" ->"5 Xena" 
+"3 Carlos" ->"7 Beto" 
+"4 Guta" ->"9 Fred" 
+}
+

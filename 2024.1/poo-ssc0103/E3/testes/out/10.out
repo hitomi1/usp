@@ -1,0 +1,14 @@
+ Fred  Helio  Jeremias  Marta  Queila  Renata  Sara  Tadeu  Vania  Xena  Ze 
+digraph {
+Jeremias -> Helio
+Jeremias -> Marta
+Marta -> Sara
+Sara -> Queila
+Sara -> Vania
+Helio -> Fred
+Vania -> Tadeu
+Vania -> Ze
+Queila -> Renata
+Ze -> Xena
+}
+

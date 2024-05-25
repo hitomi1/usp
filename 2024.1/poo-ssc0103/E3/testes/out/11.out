@@ -1,0 +1,19 @@
+ Beto  Carlos  Daniela  Fred  Guta  Iara  Jeremias  Kelle  Lea  Marta  Queila  Renata  Sara  Vania  Xena  Ze 
+digraph {
+Ze -> Kelle
+Kelle -> Beto
+Kelle -> Queila
+Queila -> Marta
+Queila -> Sara
+Sara -> Renata
+Sara -> Xena
+Beto -> Guta
+Xena -> Vania
+Marta -> Lea
+Guta -> Carlos
+Guta -> Iara
+Carlos -> Daniela
+Iara -> Jeremias
+Daniela -> Fred
+}
+

@@ -1,0 +1,6 @@
+ Guta  Lea  Ze 
+digraph {
+Lea -> Guta
+Lea -> Ze
+}
+
