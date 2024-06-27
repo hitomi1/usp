@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+#include "adjlist.h"
+
+int main(void) {
+    int n, i, x, y, weight;
+    Graph G;
+    if (scanf("%d\n", &n) == 1) {
+        G = initGraph(n);
+        while (scanf("%d %d %d\n", &x, &y, &weight) != EOF) {
+            // insertEdge(G, x, y, weight);
+            insertArc(G, x, y, weight);
+        }
+    }
+    printf("printGraph\n");
+    // printGraph(G);
+    // startSimplePath(G, 0, 5);
+    // checkEulerPath(G);
+    /*if(startHamiltonPath(G, 0, 7)) {
+      printf("A Hamilton path exists.");
+    } else {
+      printf("A Hamilton path DOES NOT exist.");
+    }*/
+    dijkstra(G, 0);
+    destroyGraph(G);
+    return 0;
+}

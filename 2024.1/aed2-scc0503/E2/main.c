@@ -8,7 +8,6 @@ void IniciarGrafo(GrafoMatriz* g) {
     int aux;
     scanf("%d", &aux);   // Le o numero de vertices o grafo deve possuir
     CriarGrafo(g, aux);  // Cria o grafo
-
 }
 
 int main() {
@@ -22,8 +21,11 @@ int main() {
         // Le quais os vertices da nova aresta
         InserirAresta(&g, x, y);  // Insere a aresta
     }
-
-    ExibirGrafo(&g);  // Exibe o grafo
+    printf("DFS\n");
+    DFS(&g, 0);
+    printf("BFS\n");
+    BFS(&g, 0);
+    // ExibirGrafo(&g);  // Exibe o grafo
     // RemoverAresta(g, x, y);  // Remove a aresta
     DeletarGrafo(&g);  // Deleta o grafo
     return 0;
